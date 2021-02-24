@@ -40,7 +40,7 @@ class App extends Component {
         <CountryPicker handleCountryChange={this.handleCountryChange}/>
         <Cards data={data}/>
         <Chart  data={data} country={country} />
-        <footer>Simple React COVID-19 App<a href="https://www.linkedin.com/in/hassan-ismail-" target="blank">hismail</a> </footer> 
+        <footer>Simple React COVID-19 App</footer> 
       </div>
     )
   };
