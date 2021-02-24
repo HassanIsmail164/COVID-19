@@ -14,31 +14,31 @@ body {
   margin: 40px;
 }
 
-footer {
+footer, a{
   margin: 1rem;
   color: blue;
-  font-size: .9rem;
+  font-size: .8rem;
 }
 
 @media (max-width: 980px) {
   .container {
-    margin: 0 5%;
+    margin: 0 10%;
   }
-  footer{
-    font-size: 0.8rem;
+  footer, a{
+    font-size: 0.7rem;
   }
 }
 
 @media (max-width: 770px) {
   .container {
-    margin: 0 5%;
+    margin: 0 10%;
   }
 
   .image {
     width: 100%;
   }
 
-  footer{
-    font-size: 0.7rem;
+  footer, a{
+    font-size: 0.6rem;
   }
 }
