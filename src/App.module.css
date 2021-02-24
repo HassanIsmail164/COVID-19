@@ -11,7 +11,7 @@ body {
 
 .image {
   width: 370px;
-  margin-top: 50px;
+  margin: 40px;
 }
 
 @media (max-width: 980px) {
@@ -28,4 +28,10 @@ body {
   .image {
     width: 100%;
   }
+}
+
+footer {
+  margin: 1rem;
+  color: blue;
+  font-size: .9rem;
 }

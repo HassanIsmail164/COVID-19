@@ -37,9 +37,10 @@ class App extends Component {
     return (
       <div className={styles.container} >
       <img className={styles.image} src={coronaImage} alt="COVID-19"/>
-        <Cards data={data}/>
         <CountryPicker handleCountryChange={this.handleCountryChange}/>
+        <Cards data={data}/>
         <Chart  data={data} country={country} />
+        <a href="https://www.linkedin.com/in/hassan-ismail-" target="blank"> <footer>Sample React COVID-19 App - hismail</footer> </a> 
       </div>
     )
   };
