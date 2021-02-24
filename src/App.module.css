@@ -14,9 +14,18 @@ body {
   margin: 40px;
 }
 
+footer {
+  margin: 1rem;
+  color: blue;
+  font-size: .9rem;
+}
+
 @media (max-width: 980px) {
   .container {
     margin: 0 5%;
+  }
+  footer{
+    font-size: 0.8rem;
   }
 }
 
@@ -28,10 +37,8 @@ body {
   .image {
     width: 100%;
   }
-}
 
-footer {
-  margin: 1rem;
-  color: blue;
-  font-size: .9rem;
+  footer{
+    font-size: 0.7rem;
+  }
 }
